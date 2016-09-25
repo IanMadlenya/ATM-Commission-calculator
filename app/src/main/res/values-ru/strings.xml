@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_central_rate">Установить курс центрального банка</string>
+    <string name="action_clear_fields">Очистить поля</string>
+    <string name="action_settings">Настройки</string>
+    <string name="actual_rate">Реальный курс</string>
+    <string name="calculate_result">Реальный курс: %1$.2f \nПотерянная сумма: %2$.2f \nОбмен: %3$.2f</string>
+    <string name="central_bank_exchange_rate">Курс обмена центрального банка</string>
+    <string name="exchange">Обмен</string>
+    <string name="finish_cost_of_bank_account">Итоговый баланс в банке</string>
+    <string name="lost_sum">Потерянная сумма</string>
+    <string name="result">Реальный курс: 0.00 \nПотерянная сумма: 0.00 \nОбмен: 0.00</string>
+    <string name="set_local_exchange_rate">Установите обменный курс центрального банка</string>
+    <string name="start_cost_of_bank_account">Начальный баланс в банке</string>
+    <string name="title_calculation">Заполните все поля для рассчёта</string>
+    <string name="amount_from_atm">Получено из банкомата в местной валюте</string>
+</resources>

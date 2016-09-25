@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/set_local_exchange_rate"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/text_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etLocalExcangeRate"
+        android:layout_gravity="center_horizontal"
+        android:enabled="true"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/big_text_margin"
+        android:layout_marginRight="@dimen/big_text_margin"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="storebox-lib-1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.orange-box.storebox/storebox-lib/1.3.0/780f9e1af265442d37aff579e193c86614dd9d79/storebox-lib-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.orange-box.storebox/storebox-lib/1.3.0/9f3c421741abecff84027da919aff21c1dae4e1c/storebox-lib-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

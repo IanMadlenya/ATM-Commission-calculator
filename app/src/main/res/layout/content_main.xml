@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/relative_layout_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="@dimen/big_text_margin"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCenralBankExchangeRate"
+            tools:text="Exchange rate of the central bank: 25.50"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:paddingBottom="@dimen/text_margin"
+            android:gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCenralBankExchangeRate"
+            android:id="@+id/llforTextViewCost"
+            android:paddingBottom="@dimen/small_text_margin"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:id="@+id/tvStartCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/start_cost_of_bank_account"
+                android:textSize="15sp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etStartBalance"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:hint="@string/null_amount"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/llforEditTextCost"
+            android:layout_below="@+id/llforTextViewCost"
+            android:paddingBottom="@dimen/small_text_margin"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvFinishBalance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/finish_cost_of_bank_account"
+                android:textSize="15sp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etFinishCost"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:hint="@string/null_amount"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llLocalAmount"
+            android:layout_below="@+id/llforEditTextCost"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/small_text_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/amount_from_atm"
+                android:id="@+id/tvTitleLocalAmount"
+                android:layout_weight="1"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etAmountFromATM"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:hint="@string/null_amount"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:id="@+id/tvResult"
+            android:layout_below="@+id/llLocalAmount"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/small_text_margin"
+            android:paddingBottom="@dimen/big_text_margin"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_set_central_rate"
+        android:orderInCategory="80"
+        android:title="@string/action_central_rate"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/action_clear_fields"
+        android:orderInCategory="90"
+        android:title="@string/action_clear_fields"
+        app:showAsAction="never"
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+</menu>

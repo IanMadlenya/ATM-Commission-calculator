@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="typetools-0.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.1/dc7f85763134c845c2fa8fdfb83b79680e01c7a/typetools-0.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.4.1/778e51c6ee1b72ee5f2830f1ec572d85638f250f/typetools-0.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
